@@ -14,7 +14,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <p align="center">
-![KunlapathPaengsa's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)
-![KunlapathPaengsa's Stats](https://github-readme-stats.vercel.app/api?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&count_private=true)
+![KunlapathPaengsa's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)</p>
+<p align="center">
+![KunlapathPaengsa's Stats](https://github-readme-stats.vercel.app/api?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&count_private=true)</p>
+<p align="center">
 ![KunlapathPaengsa's Streak](https://github-readme-streak-stats.herokuapp.com/?user=KunlapathPaengsa&theme=tokyonight&hide_border=false)
 </p>
