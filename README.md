@@ -23,3 +23,38 @@ Here are some ideas to get you started:
 
 
 ![KunlapathPaengsa's Streak](https://github-readme-streak-stats.herokuapp.com/?user=KunlapathPaengsa&theme=tokyonight&hide_border=false)
+
+## Example Code ##
+```csharp
+    public static void FindStep(int input, int currentIndex, int[] currectClimb, int[] vals)
+    {
+        if (input < 0)
+            return;
+
+        if (input == 0)
+        {
+            _ = vals.Append(currentIndex);
+            int last = 0;
+            for (int i = currentIndex - 1; i >= 0; i--)
+            {
+                int current = currectClimb[i];
+                int res = current - last;
+                last = current;
+                Console.Write($"{res}{(i > input ? "," : "")} ");
+            }
+            Console.WriteLine();
+            return;
+        }
+
+        currectClimb[currentIndex] = input;
+        FindStep(input - 1, currentIndex + 1, currectClimb, vals);
+        FindStep(input - 2, currentIndex + 1, currectClimb, vals);
+    }
+    
+```
+
+## Example API ##
+```csharp
+            app.MapGet("/hello", () => new { Message = "Hello World" });//Json
+            app.MapGet("/user", async (IMediator mediator, [AsParameters] GetUserQuery request) => Results.Ok(await mediator.Send(request)));
+```
