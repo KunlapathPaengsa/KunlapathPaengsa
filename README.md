@@ -14,11 +14,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<p align="center">
-<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&layout=compact"></a>
-</p>
-<p align="center">
-<a href="https://github-readme-stats.vercel.app/api?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&count_private=true"></a></p>
-<p align="center">
+
+### GitHub Languages
+![KunlapathPaengsa's Streak](https://github-readme-stats.vercel.app/api/top-langs/?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&layout=compact)
+
+### GitHub Stats
+![KunlapathPaengsa's Streak](https://github-readme-stats.vercel.app/api?username=KunlapathPaengsa&theme=tokyonight&show_icons=true&hide_border=false&count_private=true)
+
+
 ![KunlapathPaengsa's Streak](https://github-readme-streak-stats.herokuapp.com/?user=KunlapathPaengsa&theme=tokyonight&hide_border=false)
-</p>
