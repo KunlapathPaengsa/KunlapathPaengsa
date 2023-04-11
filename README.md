@@ -53,8 +53,9 @@ Here are some ideas to get you started:
     
 ```
 
-## Example API ##
+## Example Minimal API ##
 ```csharp
+            app.MapGet("/", () => "Success");
             app.MapGet("/hello", () => new { Message = "Hello World" });//Json
             app.MapGet("/user", async (IMediator mediator, [AsParameters] GetUserQuery request) => Results.Ok(await mediator.Send(request)));
 ```
